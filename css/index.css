@@ -1,0 +1,57 @@
+.commands {
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+}
+
+.img-res-show {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+#links #InviteButton,
+#links #SupportButton {
+  color: #903c3c;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+}
+
+#links #InviteButton:hover,
+#links #SupportButton:hover {
+  background-color: #858585;
+}
+
+.navbar-item{
+  height: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform .8s;
+}
+
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.4s;
+}
+
+.navbar-item:hover::before {
+  width: 100%;
+}
+
+
+
